@@ -1,0 +1,93 @@
+html {
+    background-color: rgb(243, 119, 47);
+}
+
+.calculator {
+    position: relative;
+    left: 50vh;
+    display: inline-grid;
+    margin-top: 20vh;
+    border: 10px solid white;
+    min-width: 400px;
+}
+
+.screen {
+    grid-row-start: 2;
+    text-align: right;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.second-screen {
+    grid-row-start: 1;
+    text-align: right;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.buttons-grid {
+    display: grid;
+    background-color:rgb(65, 169, 238);
+}
+
+.btn1 {
+    grid-row-start: 1;
+    grid-column-start: span 2;
+    background-color: rgba(69, 141, 248, 0.521);
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+.btn11 {
+    grid-row-end: 2;
+    grid-column-end: span 2;
+    background-color: rgba(69, 141, 248, 0.521);
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+.btn2 {
+    grid-row-start: 2;
+    border: 1px solid rgba(69, 141, 248, 0.521);
+}
+
+.btn3 {
+    grid-row-start: 3;
+    border: 1px solid rgba(69, 141, 248, 0.521);
+}
+
+.btn4 {
+    grid-row-start: 4;
+    border: 1px solid rgba(69, 141, 248, 0.521);
+}
+
+.btn5 {
+    grid-row-start: 5;
+    border: 1px solid rgba(69, 141, 248, 0.521);
+}
+
+.btn1:hover {
+    background-color:rgb(69, 141, 248)
+}
+
+.btn11:hover {
+    background-color: rgb(69, 141, 248);
+}
+
+.btn2:hover {
+    background-color: rgb(69, 141, 248);
+}
+
+.btn3:hover {
+    background-color: rgb(69, 141, 248);
+}
+
+.btn4:hover {
+    background-color: rgb(69, 141, 248);
+}
+
+.btn5:hover {
+    background-color: rgb(69, 141, 248);
+}
