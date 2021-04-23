@@ -9,11 +9,13 @@ html {
 }
 
 .calculator {
+    margin-top: 10vh;
     display: grid;
     justify-content: center;
     align-content: center;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(6, 100px);
+    gap: 10px;
 
 }
 
@@ -25,14 +27,19 @@ html {
     flex-direction: column;
     color: white;
     border: 1px solid white;
+    border-radius: 2%;
     word-wrap: break-word;
     word-break: break-all;
 }
 
-.second-screen {
-    text-align: right;
-    color: white;
+.outcome .second-screen {
+    color:rgba(98, 157, 245, 0.986);
+    font-size: 1.5rem;
     border-bottom: 1px solid white;
+}
+
+.outcome .main-screen {
+    font-size: 2rem;
 }
 
 .btn-span {
@@ -40,12 +47,22 @@ html {
     background-color: rgba(98, 157, 245, 0.986);
     color: white;
     border: none;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 .btn-span:hover {
     background-color: rgba(243, 119, 47, 0.678);
+    cursor: pointer;
 }
 
+.btn {
+    border: 1px solid rgba(98, 157, 245, 0.986);
+    border-radius: 5%;
+}
+
+.btn:hover {
+    background-color: rgba(243, 119, 47, 0.678);
+    cursor: pointer;
+}
 
 
